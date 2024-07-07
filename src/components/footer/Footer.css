@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Footer {
+  border-top: 1px solid #0000002b;
+  padding: 48px 100px 38px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1240px;
+  width: 100%;
+}
+.contents {
+  display: flex;
+  justify-content: space-between;
+}
+.contents .parts {
+  display: flex;
+  flex-direction: column;
+}
+.contents .parts h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 50px;
+}
+.contents .parts pre {
+  font-size: 16px;
+  color: #9f9f9f;
+}
+.contents .parts p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #9f9f9f;
+  margin-bottom: 55px;
+}
+.contents .parts a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 46px;
+}
+.contents .parts a:hover {
+  font-weight: 700;
+}
+.contents .parts a:active {
+  font-weight: 700;
+}
+.contents .parts .content {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.contents .parts input {
+  border: none;
+  border-bottom: 2px solid #000;
+  color: #9f9f9f;
+  outline: none;
+}
+.contents .parts button {
+  border: none;
+  border-bottom: 2px solid #000;
+  font-weight: 600;
+  background-color: inherit;
+  cursor: pointer;
+}
+.line {
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  margin-bottom: 35px;
+}
+.end {
+  font-size: 16px;
+  color: #000;
+}

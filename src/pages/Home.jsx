@@ -3,6 +3,7 @@ import "./Home.css";
 import Dining from "../assets/images/main/home/rooms-card1.svg";
 import Living from "../assets/images/main/home/rooms-card2.svg";
 import Bedroom from "../assets/images/main/home/rooms-card3.svg";
+import rooms from "../assets/images/main/home/img1.png";
 
 const Home = () => {
   return (
@@ -38,6 +39,18 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="rooms-content">
+        <div className="text-content">
+          <h2>50+ Beautiful rooms inspiration</h2>
+          <p>
+            Our designer already made a lot of beautiful prototipe of rooms that
+            inspire you
+          </p>
+          <button>Explore More</button>
+        </div>
+        <img src={rooms} alt="Rooms..." />
+      </div>
+      <div className="past-content"></div>
     </div>
   );
 };
