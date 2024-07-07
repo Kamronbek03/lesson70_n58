@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.Home {
+  margin: 0 auto;
+  padding: 105px 0 0;
+}
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+.hero-content {
+  background-image: url("../assets/images/main/home/background1.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 716.83px;
+  padding: 153px 0 0 739px;
+}
+.hero-content .card {
+  max-width: 643px;
+  width: 100%;
+  background-color: #fff3e3;
+  border-radius: 10px;
+  padding: 62px 43px 37px 39px;
+}
+.hero-content .card h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+.hero-content .card h2 {
+  max-width: 400px;
+  width: 100%;
+  font-size: 52px;
+  font-weight: 700;
+  color: #b88e2f;
+  margin-bottom: 17px;
+}
+.hero-content .card p {
+  max-width: 546px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 46px;
+}
+.hero-content .card button {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  padding: 25px 72px;
+  background-color: #b88e2f;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+.hero-content .card button:hover {
+  background-color: #bea877;
+}
+.rooms {
+  margin-top: 56.47px;
+  padding: 0 126px 0 131px;
+}
+.rooms h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+}
+.rooms p {
+  font-size: 20px;
+  text-align: center;
+  color: #666;
+  margin-bottom: 62.29px;
+}
+.rooms .cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.rooms .cards .card h4 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  color: #333;
+  margin-top: 30px;
+}
